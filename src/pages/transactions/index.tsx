@@ -18,7 +18,7 @@ export function Transactions() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
 
   async function loadTransactions() {
-    const response = await fetch('http://127.0.0.1:5173/transactions')
+    const response = await fetch('http://localhost:3000/transactions')
     const data = await response.json()
 
     setTransactions(data)
