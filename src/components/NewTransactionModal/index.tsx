@@ -7,7 +7,6 @@ export function NewTransactionModal() {
   return (
     <Dialog.Portal>
       <Overlay />
-
       <Content>
         <Dialog.Title>Nova Transação</Dialog.Title>
 
